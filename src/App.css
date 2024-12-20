@@ -1,0 +1,52 @@
+/* App.css */
+.app {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.task-form {
+  display: flex;
+  flex-direction: column;
+}
+
+input, textarea {
+  margin: 5px 0;
+  padding: 10px;
+}
+
+button {
+  padding: 8px 12px;
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+.task-list {
+  margin-top: 20px;
+}
+
+.task-item {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.task-item.completed {
+  background-color: #d4edda;
+  text-decoration: line-through;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+}
+
+textarea {
+  resize: none;
+  height: 100px;
+}
